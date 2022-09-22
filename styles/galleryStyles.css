@@ -23,6 +23,7 @@ main section {
 footer {
     height: 180px;
     background-color: firebrick;
+    
 }
 
 p {
@@ -57,6 +58,23 @@ header div.hamburger{
     width: 50px;
     background-color: red;
     display: none;
+}
+main {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Permanent Marker', cursive;
+}
+img {
+    float: left;
+  width: 20%;
+  display: flex;
+  padding-left: 10px;
+  padding-bottom:  10px;
+  size: auto;
+}
+footer li {
+    text-align: center;
+    font: bold;
 }
 
 @media (max-width: 576px) {
