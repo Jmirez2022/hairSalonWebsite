@@ -5,6 +5,37 @@
     flex-direction: column;
 }
 
+body form input{
+    margin: 0 150 20px;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 10px;
+    width: 84%;
+    border: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+body form textarea{
+    height: 175px;
+    width: 84%;
+    padding: 10px;
+    overflow: auto;
+    resize: none;
+    margin: 0 150 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+}
 header {
     height: 150px;
     background-color: firebrick;
@@ -14,6 +45,7 @@ main {
     /* height: 100%; */
     flex: 1;
     background-color: lightcoral;
+    
 }
 
 main section {

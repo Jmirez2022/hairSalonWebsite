@@ -11,24 +11,16 @@ header {
 }
 
 main {
-    /* height: 100%; */
+    height: auto;
     flex: 1;
     background-color: lightcoral;
+    
 }
 
-main section {
-    /* height: 1800px; */
-}
-
-footer {
-    height: 180px;
-    background-color: firebrick;
-}
-
-p {
+p{
     font-family: 'Permanent Marker', cursive;
     font-size: 50px;
-    text-align: center;   
+    text-align: center;
 }
 
 a:link {
@@ -59,6 +51,67 @@ header div.hamburger{
     display: none;
 }
 
+section {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    font-size: 50px;
+    background-color: lightcoral;
+}
+main {
+ line-height: 1;
+}
+
+main div ul li .figure {  
+    width: 500px;
+}
+img {
+    width: 500px;
+    
+}
+
+main div ul li {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-size: 25px;
+    border: 2px solid black;
+    margin: 0 0 13px;
+    display: block;
+    padding:  0 0 20;
+    text-transform: uppercase;
+    width: auto;
+    overflow: visible;
+    list-style: none;
+    width: 500px;
+
+    
+}
+
+main div p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px; 
+    
+    
+}
+
+
+/* footer .bottom ul li {
+    text-align: center;
+    font: bold;
+    background-color: firebrick;
+} */
+
+footer .bottom ul li {
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+    background-color: firebrick;
+
+}
 @media (max-width: 576px) {
     header nav {
         display: none;

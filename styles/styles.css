@@ -5,6 +5,20 @@
     flex-direction: column;
 }
 
+body .text-block div span{
+    padding: 10px;
+    margin: 10px 0;
+    display: block;
+
+}
+
+body .text-block div h2{
+    padding: 10px;
+    margin: 10px 0;
+    display: block;
+    
+}
+
 header {
     height: 150px;
     background-color: firebrick;
